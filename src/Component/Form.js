@@ -19,8 +19,8 @@ export default function Form({setLocation, locations,location, search}) {
         //     e => [{location: formLocation}, ...e],
         // );
 
-
-        search(); /// J'ai pas trouve comment update correctement ...
+        console.log(formLocation)
+        search(); 
 
     }
 

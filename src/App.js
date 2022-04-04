@@ -21,6 +21,7 @@ function App() {
       .then(res => res.json())
       .then(result => {
         setWeather(result);
+        console.log(location)
       });
     }
 
